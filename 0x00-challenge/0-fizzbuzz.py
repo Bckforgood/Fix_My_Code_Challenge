@@ -5,14 +5,6 @@ import sys
 
 
 def fizzbuzz(n):
-    """
-    FizzBuzz function prints numbers from 1 to n separated by a space.
-
-    - For multiples of both three and five, print "FizzBuzz".
-    - For multiples of three, print "Fizz".
-    - For multiples of five, print "Buzz".
-    - For other numbers, print the number itself.
-    """
     if n < 1:
         return
 
@@ -38,3 +30,4 @@ if __name__ == '__main__':
 
     number = int(sys.argv[1])
     fizzbuzz(number)
+
